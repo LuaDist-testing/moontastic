@@ -1,10 +1,10 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "moontastic"
-version = "1.0-0"
+version = "1.0-1"
 -- LuaDist source
 source = {
-  tag = "1.0-0",
+  tag = "1.0-1",
   url = "git://github.com/LuaDist-testing/moontastic.git"
 }
 -- Original source
@@ -46,6 +46,9 @@ build = {
 		['moontastic.utils.utf8'] = "moontastic/utils/utf8.lua",
 
 		['moontastic.themes.arch'] = "moontastic/themes/arch.lua",
+		['moontastic.themes.default'] = "moontastic/themes/default.lua",
+		['moontastic.themes.light'] = "moontastic/themes/light.lua",
+		['moontastic.themes.contrast'] = "moontastic/themes/contrast.lua",
 
 		['moontastic.config'] = "moontastic/config.lua"
 
